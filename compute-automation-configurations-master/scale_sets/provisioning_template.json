@@ -265,9 +265,9 @@
                 {
                   "name": "provision",
                   "properties": {
-                    "publisher": "provision.Publisher",
-                    "type": "provision",
-                    "typeHandlerVersion": "2.0",
+                    "publisher": "Microsoft.Azure.Extensions",
+                    "type": "CustomScript",
+                    "typeHandlerVersion": "3.0",
                     "autoUpgradeMinorVersion": true,
                     "settings": {
                       "fileUris": [
@@ -281,9 +281,12 @@
                 {
                   "name": "analysis",
                   "properties": {
-                    "publisher": "analysis.Publisher",
-                    "type": "analysis",
-                    "typeHandlerVersion": "2.0",
+                    "provisionAfterExtensions": [
+                      "provision"
+                    ],
+                    "publisher": "Microsoft.Azure.Extensions",
+                    "type": "CustomScript",
+                    "typeHandlerVersion": "3.0",
                     "autoUpgradeMinorVersion": true,
                     "settings": {
                       "fileUris": [
