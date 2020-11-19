@@ -319,7 +319,7 @@
                   "scaleAction": {
                     "direction": "Increase",
                     "type": "ChangeCount",
-                    "value": "10",
+                    "value": "5",
                     "cooldown": "PT5M"
                   }
                 },
