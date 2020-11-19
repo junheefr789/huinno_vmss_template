@@ -281,9 +281,6 @@
                 {
                   "name": "analysis",
                   "properties": {
-                    "provisionAfterExtensions": [
-                      "provision"
-                    ],
                     "publisher": "Microsoft.Azure.Extensions",
                     "type": "CustomScript",
                     "typeHandlerVersion": "3.0",
