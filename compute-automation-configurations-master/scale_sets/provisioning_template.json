@@ -277,22 +277,6 @@
                       "commandToExecute": "bash provisionning.sh"
                     }
                   }
-                },
-                {
-                  "name": "analysis",
-                  "properties": {
-                    "publisher": "Microsoft.Azure.Extensions",
-                    "type": "CustomScript2",
-                    "typeHandlerVersion": "2.0",
-                    "autoUpgradeMinorVersion": true,
-                    "settings": {
-                      "fileUris": [
-                        "https://raw.githubusercontent.com/junheefr789/huinno_vmss_template/master/compute-automation-configurations-master/analysis.sh",
-                        "https://raw.githubusercontent.com/junheefr789/huinno_vmss_template/master/compute-automation-configurations-master/test2.py"
-                      ],
-                      "commandToExecute": "bash analysis.sh"
-                    }
-                  }
                 }
               ]
             }
