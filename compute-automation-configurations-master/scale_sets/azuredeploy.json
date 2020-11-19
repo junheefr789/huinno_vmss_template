@@ -271,7 +271,8 @@
                     "autoUpgradeMinorVersion": true,
                     "settings": {
                       "fileUris": [
-                        "https://raw.githubusercontent.com/junheefr789/huinno_vmss_template/master/compute-automation-configurations-master/automate_nginx.sh"
+                        "https://raw.githubusercontent.com/junheefr789/huinno_vmss_template/master/compute-automation-configurations-master/automate_nginx.sh",
+                        "https://raw.githubusercontent.com/junheefr789/huinno_vmss_template/master/compute-automation-configurations-master/test.py"
                       ],
                       "commandToExecute": "bash automate_nginx.sh"
                     }
