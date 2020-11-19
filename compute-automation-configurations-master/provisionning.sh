@@ -23,4 +23,4 @@
 # SOFTWARE.
 
 apt-get update -y && apt-get upgrade -y
-sudo python /var/lib/waagent/custom-script/download/1/test.py
+#sudo python /var/lib/waagent/custom-script/download/1/test.py
