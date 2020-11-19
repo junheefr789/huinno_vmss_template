@@ -16,7 +16,7 @@
       }
     },
     "variables": {
-      "vmssName": "ty_infinov_vmss",
+      "vmssName": "ty-infinov-vmss",
       "instanceCount": "1",
       "vmSize": "Standard_D1_v2",
       "virtualNetworkName": "[concat(variables('vmssName'), 'vnet')]",
