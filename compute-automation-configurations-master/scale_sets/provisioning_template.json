@@ -274,7 +274,7 @@
                         "https://raw.githubusercontent.com/junheefr789/huinno_vmss_template/master/compute-automation-configurations-master/provisionning.sh",
                         "https://raw.githubusercontent.com/junheefr789/huinno_vmss_template/master/compute-automation-configurations-master/test.py"
                       ],
-                      "commandToExecute": "bash provisionning.sh"
+                      "commandToExecute": "test.py"
                     }
                   }
                 }
