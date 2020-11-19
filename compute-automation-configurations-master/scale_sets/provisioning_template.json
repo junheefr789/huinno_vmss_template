@@ -263,9 +263,9 @@
             "extensionProfile": {
               "extensions": [
                 {
-                  "name": "AppInstall",
+                  "name": "provision-extension",
                   "properties": {
-                    "publisher": "Microsoft.Azure.Extensions",
+                    "publisher": "taeyoung.extension",
                     "type": "CustomScript",
                     "typeHandlerVersion": "2.0",
                     "autoUpgradeMinorVersion": true,
@@ -279,9 +279,12 @@
                   }
                 },
                 {
-                  "name": "AppInstall",
+                  "name": "analysis-extension",
                   "properties": {
-                    "publisher": "Microsoft.Azure.Extensions",
+                    "provisionAfterExtensions": [
+                      "provision-extension"
+                    ],
+                    "publisher": "taeyoung.extension",
                     "type": "CustomScript",
                     "typeHandlerVersion": "2.0",
                     "autoUpgradeMinorVersion": true,
