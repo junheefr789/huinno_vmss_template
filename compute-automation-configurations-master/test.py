@@ -1,4 +1,3 @@
-import time
-while True:
-    print('Hello')
-    time.sleep(1)
+with open('test.csv','w') as file:
+    str='1'
+    file.write(str)
