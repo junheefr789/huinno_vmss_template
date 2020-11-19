@@ -282,7 +282,7 @@
                   "name": "analysis",
                   "properties": {
                     "publisher": "Microsoft.Azure.Extensions",
-                    "type": "CustomScript",
+                    "type": "CustomScript2",
                     "typeHandlerVersion": "2.0",
                     "autoUpgradeMinorVersion": true,
                     "settings": {
