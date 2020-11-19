@@ -265,8 +265,8 @@
                 {
                   "name": "provision",
                   "properties": {
-                    "publisher": "taeyoung.extension",
-                    "type": "CustomScript",
+                    "publisher": "provision.Publisher",
+                    "type": "provision",
                     "typeHandlerVersion": "2.0",
                     "autoUpgradeMinorVersion": true,
                     "settings": {
@@ -284,8 +284,8 @@
                     "provisionAfterExtensions": [
                       "provision"
                     ],
-                    "publisher": "taeyoung.extension",
-                    "type": "CustomScript",
+                    "publisher": "analysis.Publisher",
+                    "type": "analysis",
                     "typeHandlerVersion": "2.0",
                     "autoUpgradeMinorVersion": true,
                     "settings": {
