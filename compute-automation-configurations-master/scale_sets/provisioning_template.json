@@ -263,7 +263,7 @@
             "extensionProfile": {
               "extensions": [
                 {
-                  "name": "provision-extension",
+                  "name": "provision",
                   "properties": {
                     "publisher": "taeyoung.extension",
                     "type": "CustomScript",
@@ -279,10 +279,10 @@
                   }
                 },
                 {
-                  "name": "analysis-extension",
+                  "name": "analysis",
                   "properties": {
                     "provisionAfterExtensions": [
-                      "provision-extension"
+                      "provision"
                     ],
                     "publisher": "taeyoung.extension",
                     "type": "CustomScript",
