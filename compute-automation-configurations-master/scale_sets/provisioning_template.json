@@ -281,9 +281,6 @@
                 {
                   "name": "analysis",
                   "properties": {
-                    "provisionAfterExtensions": [
-                      "provision"
-                    ],
                     "publisher": "analysis.Publisher",
                     "type": "analysis",
                     "typeHandlerVersion": "2.0",
