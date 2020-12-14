@@ -23,5 +23,6 @@
 # SOFTWARE.
 
 apt-get update -y && apt-get upgrade -y
-
-sudo python /var/lib/waagent/custom-script/download/1/test.py
+sudo apt-get install python3-pip
+sudo apt-get install azure-servicebus
+sudo python3 /var/lib/waagent/custom-script/download/1/test.py
