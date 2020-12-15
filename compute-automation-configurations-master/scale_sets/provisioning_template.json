@@ -37,7 +37,6 @@
       "frontEndIPConfigID": "[concat(variables('lbID'), '/frontendIPConfigurations/loadBalancerFrontEnd')]",
       "location": "eastus",
       "osType": {
-        "id": "/subscriptions/18638dfa-22cf-450d-9401-f3d03f2cadfb/resourceGroups/ty-infonov-VMset/providers/Microsoft.Compute/galleries/analysisVMimage/images/huinno_analysisvm/versions/1.0.0",
         "publisher": "ty_infinov",
         "offer": "huinno",
         "sku": "ad024",
