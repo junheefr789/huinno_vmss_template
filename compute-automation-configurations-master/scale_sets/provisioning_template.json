@@ -18,7 +18,7 @@
     "variables": {
       "vmssName": "ty-infinov-vmss",
       "instanceCount": "1",
-      "vmSize": "Standard_D1_v2",
+      "vmSize": "Standard_NC6s_v3",
       "virtualNetworkName": "[concat(variables('vmssName'), 'vnet')]",
       "subnetName": "[concat(variables('vmssName'), 'subnet')]",
       "nicName": "[concat(variables('vmssName'), 'nic')]",
@@ -35,12 +35,12 @@
       "lbPoolID": "[concat(variables('lbID'),'/backendAddressPools/',variables('bePoolName'))]",
       "lbProbeID": "[concat(variables('lbID'),'/probes/tcpProbe')]",
       "frontEndIPConfigID": "[concat(variables('lbID'), '/frontendIPConfigurations/loadBalancerFrontEnd')]",
-      "location": "[resourceGroup().location]",
+      "location": "eastus",
       "osType": {
-        "publisher": "Canonical",
-        "offer": "UbuntuServer",
-        "sku": "16.04-LTS",
-        "version": "latest"
+        "publisher": "ty_infinov",
+        "offer": "huinno",
+        "sku": "ad024",
+        "version": "/subscriptions/18638dfa-22cf-450d-9401-f3d03f2cadfb/resourceGroups/ty-infonov-VMset/providers/Microsoft.Compute/galleries/analysisVMimage/images/huinno_analysisvm/versions/1.0.0"
       },
       "imageReference": "[variables('osType')]",
       "computeApiVersion": "2017-12-01",
